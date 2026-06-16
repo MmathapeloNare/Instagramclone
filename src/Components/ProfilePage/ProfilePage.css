@@ -1,0 +1,131 @@
+.profile_container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.profile_header {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+.profile_info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.profile_top {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.profile_username {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.profile_edit_btn {
+    padding: 7px 16px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    background: none;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.profile_archive_btn {
+    padding: 7px 16px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    background: none;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.profile_stats {
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+}
+
+.profile_stat_number {
+    font-weight: 600;
+}
+
+.profile_name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.profile_bio {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.profile_tabs {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+}
+
+.profile_tab {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 14px 30px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #8e8e8e;
+    cursor: pointer;
+    border-top: 2px solid transparent;
+}
+
+.profile_tab_active {
+    color: #262626;
+    border-top: 2px solid #262626;
+}
+
+.profile_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+}
+
+.profile_grid_item {
+    aspect-ratio: 1;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.profile_grid_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile_grid_item:hover {
+    opacity: 0.8;
+}
+
+.profile_empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    color: #262626;
+    text-align: center;
+}
+
+.profile_empty p {
+    color: #8e8e8e;
+    font-size: 14px;
+}

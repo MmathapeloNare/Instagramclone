@@ -22,7 +22,7 @@ Start the app
    npm install
    npm start
 
-This opens the app at http://localhost:3000.
+This opens the app at http://localhost:3009.
 
 
 Log in
